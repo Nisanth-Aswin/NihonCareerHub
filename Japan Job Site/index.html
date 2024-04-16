@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>NihonCareerHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="select-none">
+    <header class="my-5 mx-10 flex justify-between">
+        <div>
+            <p class="text-lg font-semibold">NihonCareerHub</p>
+        </div>
+        <div>
+            <ul class="flex space-x-10 ">
+                <a href="#"><li class="cursor-pointer">Home</li></a>
+                <a href="#JobList"><li class="cursor-pointer">Job Listings</li></a>
+                <a href="#AboutUs"><li class="cursor-pointer">About Us</li></a>
+                <a href="#ContactUs"><li class="cursor-pointer">Contact Us</li></a>
+            </ul>
+        </div>
+        <div>
+            <button class="py-1 px-5 border border-orange-600 rounded font-medium mr-2">Sign In</button>
+            <button class="py-1 px-5 rounded bg-orange-600 active:bg-orange-400 text-white font-medium">Join Now</button>
+        </div>
+    </header>
+
+    <main class="ml-10 rounded px-24  bg-gradient-to-r from-fuchsia-300/60 flex justify-between">
+        <div class="w-[40%] py-14 ">
+            <p class="text-4xl font-light leading-[3.5rem]">Find Work Opportunities in <span class="font-bold">Japan</span> in our Exclusive Platform</p>
+            <p class=" my-5">When you're searching for a job, there are a few things you can do to get the most of your search </p>
+            <div class="mt-5">
+                <svg class="text-white left-[1rem] top-[1.9rem]  w-5 relative " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search"><g data-name="Layer 2"><path d="m20.71 19.29-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z" data-name="search"></path></g></svg>
+                <input type="text" class="rounded-full border-2 border-transparent focus:border-blue-500 px-5 pl-10 w-full py-2 outline-none" placeholder="Job title or Keyword">
+                <button class="px-4 py-1 relative bottom-[2.4em] left-[23.5rem] bg-black/15 rounded-full active:bg-black/10">Any Location</button>
+            </div>
+        </div>
+        <div>
+            <img src="Images/Japan-girl.png" width="700" alt="">
+        </div>        
+    </main>
+
+    <div class="ml-10 px-24 py-14 bg-black/5 rounded">
+        <fieldset class="border-2 border-solid border-gray-300 p-3 rounded">
+            <legend class="text-base text-center font-medium">Trusted by Job Holders from</legend>
+            <div class="flex space-x-14 items-center justify-center">
+                <div class="w-[175px]">
+                    <img src="Images/AMAZON.png"  alt="">
+                </div>
+                <div class="w-[75px]">
+                    <img src="Images/IBM.png"  alt="">
+                </div>
+                <div class="w-[125px]">
+                    <img src="Images/EBAY.png"  alt="">
+                </div>
+                <div class="w-[150px]">
+                    <img src="Images/DROPBOX.png"  alt="">
+                </div>
+                <div class="w-[150px]">
+                    <img src="Images/MICROSOFT.png"  alt="">
+                </div>
+                <div class="w-[175px]">
+                    <img src="Images/AMAZON.png"  alt="">
+                </div>
+            </div>
+                
+            
+        </fieldset>
+        
+    </div>
+
+<section id="JobList">
+    <div class="ml-10 px-24 py-7 bg-black/5 rounded ">
+        <div class="flex mb-5 ">
+            <p class="text-2xl pr-4 border-r border-black/10 font-semibold">Job Listings</p>
+            <button class=" text-sm px-3 py-1 bg-blue-600 text-white rounded ml-4 active:bg-blue-400">See all jobs</button>
+        </div>
+
+        <div class="inline-flex items-center space-x-5">
+
+            <div class="w-[400px] shadow-xl px-5 py-5 border bg-white/50 border-black/5 rounded-md flex flex-col space-y-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bg-pink-500/10 rounded-full" width="48" height="48" fill="none" viewBox="0 0 48 48" id="google"><path fill="" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"></path><path fill="#EA4335" d="M24 17.6213C25.9529 17.6213 27.2702 18.4649 28.0214 19.1698L30.9565 16.304C29.1538 14.6284 26.808 13.6 24 13.6C19.9325 13.6 16.4196 15.9342 14.7094 19.3315L18.072 21.9431C18.9156 19.4355 21.2498 17.6213 24 17.6213V17.6213Z"></path><path fill="#4285F4" d="M33.984 24.2311C33.984 23.376 33.9147 22.752 33.7644 22.1049H24V25.9644H29.7316C29.616 26.9235 28.992 28.368 27.6053 29.3386L30.8871 31.8809C32.8516 30.0666 33.984 27.3973 33.984 24.2311V24.2311Z"></path><path fill="#FBBC05" d="M18.0836 26.0569C17.864 25.4098 17.7369 24.7164 17.7369 24C17.7369 23.2835 17.864 22.5902 18.072 21.9431L14.7093 19.3315C14.0045 20.7413 13.6 22.3244 13.6 24C13.6 25.6755 14.0045 27.2587 14.7093 28.6684L18.0836 26.0569V26.0569Z"></path><path fill="#34A853" d="M24 34.4C26.808 34.4 29.1653 33.4756 30.8871 31.8809L27.6053 29.3387C26.7271 29.9511 25.5484 30.3787 24 30.3787C21.2498 30.3787 18.9156 28.5644 18.0836 26.0569L14.7209 28.6684C16.4311 32.0658 19.9324 34.4 24 34.4V34.4Z"></path></svg>
+                <p class="font-semibold">Software Developer</p>
+
+                <div class="text-xs flex space-x-2 text-gray-600 ">
+                    <p>Tokyo</p>
+                    <p>•</p>
+                    <p>Google</p>
+                </div>
+                <h1 class="w-[55%] px-3 py-1 rounded-full text-sm bg-green-400/40 border border-green-900/10">$50k - $55k per month</h1>
+
+                <button class="inline-flex w-[41.5%] items-center bg-blue-600 space-x-2 rounded-md px-4 py-2 active:bg-blue-400 text-white">
+                    <span>Apply now</span><svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" id="send"><path fill="#fff" fill-rule="evenodd" d="M20.2435 1.35786C21.7322 0.836829 23.1632 2.26782 22.6422 3.75649L16.4356 21.4894C15.8724 23.0986 13.6311 23.19 12.9387 21.632L9.7459 14.4483C9.70744 14.3618 9.63826 14.2926 9.55174 14.2541L2.36797 11.0613C0.81001 10.3689 0.901447 8.12759 2.51063 7.56438L20.2435 1.35786ZM22.0303 3.03033C22.3232 2.73744 22.3232 2.26256 22.0303 1.96967C21.7374 1.67678 21.2626 1.67678 20.9697 1.96967L9.96967 12.9697C9.67678 13.2626 9.67678 13.7374 9.96967 14.0303C10.2626 14.3232 10.7374 14.3232 11.0303 14.0303L22.0303 3.03033Z" clip-rule="evenodd"></path></svg>
+                </button>
+            
+            </div>
+            
+            <div class="w-[400px] shadow-xl px-5 py-5 border bg-white/50 border-black/5 rounded-md flex flex-col space-y-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bg-blue-500/10 rounded-full" width="45" height="45" viewBox="0 0 16 16" id="facebook"><path fill="#1976D2" fill-rule="evenodd" d="M12 5.5H9v-2a1 1 0 0 1 1-1h1V0H9a3 3 0 0 0-3 3v2.5H4V8h2v8h3V8h2l1-2.5z" clip-rule="evenodd"></path></svg>
+                <p class="font-semibold">Senior Software Engineer</p>
+
+                <div class="text-xs flex space-x-2 text-gray-600 ">
+                    <p>Aichi</p>
+                    <p>•</p>
+                    <p>Facebook</p>
+                </div>
+                <h1 class="w-[55%] px-3 py-1 rounded-full text-sm bg-green-400/40 border border-green-900/10">$40k - $45k per month</h1>
+
+                <button class="inline-flex w-[41.5%] items-center bg-blue-600 space-x-2 rounded-md px-4 py-2 active:bg-blue-400 text-white">
+                    <span>Apply now</span><svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" id="send"><path fill="#fff" fill-rule="evenodd" d="M20.2435 1.35786C21.7322 0.836829 23.1632 2.26782 22.6422 3.75649L16.4356 21.4894C15.8724 23.0986 13.6311 23.19 12.9387 21.632L9.7459 14.4483C9.70744 14.3618 9.63826 14.2926 9.55174 14.2541L2.36797 11.0613C0.81001 10.3689 0.901447 8.12759 2.51063 7.56438L20.2435 1.35786ZM22.0303 3.03033C22.3232 2.73744 22.3232 2.26256 22.0303 1.96967C21.7374 1.67678 21.2626 1.67678 20.9697 1.96967L9.96967 12.9697C9.67678 13.2626 9.67678 13.7374 9.96967 14.0303C10.2626 14.3232 10.7374 14.3232 11.0303 14.0303L22.0303 3.03033Z" clip-rule="evenodd"></path></svg>
+                </button>
+            
+            </div>
+            <div class="w-[400px] shadow-xl px-5 py-5 border bg-white/50 border-black/5 rounded-md flex flex-col space-y-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 192.756 192.756" id="panasonic"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"></path><path fill="#2866ad" d="M52.839 90.841h6.501l.286 2.143c.5-1.714 3.787-2.929 5.787-2.929 4.644 0 6.501 2.858 6.501 7.859v10.787h-7.215v-9.645c0-1.928-.357-3.357-2.286-3.357-1.786 0-2.715 1.929-2.715 3.287v9.715H52.84v-17.86h-.001zM10.76 108.773v-25.29h12.073c7.216 0 10.502 3.5 10.502 8.573 0 5.431-3 9.146-10.502 9.146h-4.072v7.572H10.76v-.001zm11.217-13.717c1.929 0 4-.429 4-2.643 0-2.286-2.214-2.786-4-2.786h-3.215v5.429h3.215zM132.283 90.841h6.572l.215 2.143c.572-1.714 3.857-2.929 5.859-2.929 4.572 0 6.5 2.858 6.5 7.859v10.859h-7.215v-9.717c0-1.928-.43-3.357-2.357-3.357-1.715 0-2.645 1.929-2.645 3.287v9.787h-6.93V90.841h.001zM99.135 102.344c0 .715.357 1.785.785 2.143.5.357 1.143.715 1.93.715 1.285 0 2.285-.357 2.285-1.572.072-3-10.859-.357-10.859-7.501 0-5 3.859-6.144 7.859-6.144s9.502.786 9.287 6.215h-6.072c0-.5-.215-.857-.5-1.286-.43-.5-.93-.714-1.857-.786-1.215-.071-2.357.143-2.357 1.072.07 2.787 11.287.929 11.287 7.502 0 4.572-3.215 6.645-9.43 6.645-3.93-.072-8.859-2.072-8.859-7.002h6.501v-.001zM173.076 97.771c0-.43 0-1-.57-1.715-.287-.357-.93-1.143-1.93-1.143-2.715 0-3.43 2.643-3.43 4.788 0 2.5 1.145 4.572 3.287 4.572 1.857 0 2.787-1.715 2.787-3.145h6.287c.143 3.715-2.43 8.145-9.359 8.145-5.645 0-9.645-3.93-9.645-9.645 0-6.93 5.143-9.574 9.572-9.574 6.002 0 9.432 3.644 9.359 7.716h-6.358v.001zM45.195 108.773l-.714-1.5c-1.357 1.143-2.786 1.785-5.072 1.785-2.215-.07-6.573-.357-6.573-5.143 0-7.859 11.717-4.287 11.717-8.145 0-1.286-1.429-1.215-2.215-1.215-1.429 0-2.357.286-2.572 2.428h-6.001c0-3.714 1.144-6.857 9.002-6.857 7.645 0 8.43 4 8.43 7.93v8.145c0 1.072.072 1.572.786 2.357v.143l-6.788.072zm-.571-8.216c-2.429 1.145-5.501 1.072-5.572 2.859 0 1.143.643 1.713 2.072 1.713 2.357 0 3.643-2.428 3.5-4.572zm40.865 8.216l-.714-1.5c-1.357 1.143-2.858 1.785-5.073 1.785-2.286-.07-6.644-.357-6.644-5.143 0-7.859 11.717-4.287 11.788-8.145 0-1.286-1.5-1.215-2.214-1.215-1.5 0-2.358.286-2.572 2.428h-6.001c0-3.714 1.071-6.857 9.001-6.857 7.573 0 8.359 4 8.359 7.93v8.145c0 1.072.071 1.572.786 2.357v.143l-6.716.072zm-.572-8.216c-2.429 1.145-5.573 1.072-5.573 2.859 0 1.143.571 1.713 2.072 1.713 2.287 0 3.644-2.428 3.501-4.572zM159.359 108.773V90.841h-6.643v17.932h6.643zm-6.642-20.218h6.643v-5.144h-6.643v5.144zM121.566 90.198c5.93 0 9.574 4.144 9.574 9.573 0 5.502-3.645 9.574-9.574 9.574s-9.645-4.072-9.645-9.574c.001-5.429 3.716-9.573 9.645-9.573zm-3.142 9.573c0 2.215.715 4.93 3.143 5.002 2.43 0 3.072-2.787 3.072-5.002 0-2.143-.643-4.929-3.072-4.929-2.428 0-3.071 2.787-3.143 4.929zM183.723 105.273c.428 0 1.07.07 1.07-.5 0-.5-.428-.572-.785-.572h-.857v1.072h.572zm1.427 1.715h-.428l-.857-1.43h-.715v1.43h-.357v-3.072h1.287c.574 0 1.084.172 1.084.857 0 .57-.371.785-.941.785l.927 1.43zm1.038-1.465c0-1.357-1.072-2.43-2.357-2.43a2.41 2.41 0 0 0-2.43 2.43c0 1.285 1.072 2.357 2.43 2.357a2.378 2.378 0 0 0 2.357-2.357zm-5.11-.037a2.714 2.714 0 1 1 5.43 0c0 1.502-1.215 2.715-2.715 2.715s-2.715-1.213-2.715-2.715z"></path></g></svg>
+                <p class="font-semibold">Technical Engineer</p>
+
+                <div class="text-xs flex space-x-2 text-gray-600 ">
+                    <p>Fukuoka</p>
+                    <p>•</p>
+                    <p>Panasonic</p>
+                </div>
+                <h1 class="w-[55%] px-3 py-1 rounded-full text-sm bg-green-400/40 border border-green-900/10">$30k - $45k per month</h1>
+
+                <button class="inline-flex w-[41.5%] items-center bg-blue-600 space-x-2 rounded-md px-4 py-2 active:bg-blue-400 text-white">
+                    <span>Apply now</span><svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" id="send"><path fill="#fff" fill-rule="evenodd" d="M20.2435 1.35786C21.7322 0.836829 23.1632 2.26782 22.6422 3.75649L16.4356 21.4894C15.8724 23.0986 13.6311 23.19 12.9387 21.632L9.7459 14.4483C9.70744 14.3618 9.63826 14.2926 9.55174 14.2541L2.36797 11.0613C0.81001 10.3689 0.901447 8.12759 2.51063 7.56438L20.2435 1.35786ZM22.0303 3.03033C22.3232 2.73744 22.3232 2.26256 22.0303 1.96967C21.7374 1.67678 21.2626 1.67678 20.9697 1.96967L9.96967 12.9697C9.67678 13.2626 9.67678 13.7374 9.96967 14.0303C10.2626 14.3232 10.7374 14.3232 11.0303 14.0303L22.0303 3.03033Z" clip-rule="evenodd"></path></svg>
+                </button>
+            
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+        <section id="AboutUs">
+            <div class="ml-10 px-24 py-10 bg-white border-2 shadow-xl rounded mb-5 mt-5">
+                <div class="flex justify-between items-center">
+                    <p class="text-2xl pr-4 font-semibold">About us</p>
+                    <img class="float-right w-[200px] rounded-md" src="https://internshala-uploads.internshala.com/logo/64437531c54041682142513.jpg.webp" alt="">
+                </div>
+                <p class="mt-2">Mobilicis India Private Limited, doing business as 'ORU Phones'. Mobilicis India Private Limited owns and operates the website, www.oruphones.com. It will be India's first-ever online marketplace dedicated to buying & selling certified used phones. Our vision is to be a trusted marketplace for any user to buy and sell their phone with confidence, ease, and for the best price possible. We strive to achieve this with strong technology and a dedicated team of professionals who are seasoned and understand the needs of the market.</p>
+            </div>
+        </section>
+    
+<section id="ContactUs">
+ <div class="ml-10 px-24 py-10 bg-white border-2 shadow-xl rounded mb-5 mt-5 ">
+        <p class="text-2xl pr-4 font-semibold mb-5">Contact us</p>
+        <div class="flex items-center">
+            <div class="w-6/12">
+                <form class="flex flex-col space-y-5 w-[90%]" action="">
+                    <input class="outline-none border border-black/50 px-4 py-1 rounded" type="text" placeholder="First Name..">
+                    <input class="outline-none border border-black/50 px-4 py-1 rounded" type="text" placeholder="Last Name..">
+                    <input class="outline-none border border-black/50 px-4 py-1 rounded" type="email" placeholder="Email Address..">
+                    <textarea class="outline-none border border-black/50 px-4 py-1 rounded" rows="10" cols="30" placeholder="Send Message..">
+                    </textarea>
+                    <button class="px-4 py-1 rounded bg-orange-500 active:bg-orange-400">Submit</button>
+                </form>
+            </div>
+            <div class="w-6/12">
+                <p class="text-xl pr-4 font-semibold mb-5 ">Company Location</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3812471.329695941!2d77.87459971250001!3d21.0680074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13e07c00a79f05%3A0xfcf63fc62540f23c!2sMobilicis!5e0!3m2!1sen!2sin!4v1713289818378!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+
+    <footer class="bg-black text-white">
+        <div class="px-5 py-10 flex items-start justify-between gap-10 mb-5">
+        <div class="w-6/12">
+            <div class="flex flex-col items-center justify-between">
+            <a href="#"><h1 class="text-center text-2xl font-bold px-5 py-1 bg-red-300/40 active:bg-red-300/80 rounded-md cursor-pointer transition-all ease-in-out duration-150">NihonCareerHub</h1></a>
+            <div class="mt-8 flex items-start gap-5 ">
+                <div class="p-1 bg-white rounded-md cursor-pointer">
+                    <svg class="w-8 h-8 hover:fill-blue-800" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook"><path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"></path></svg>
+                </div>
+                <div class="p-1 bg-white rounded-md cursor-pointer">
+                    <svg class="w-8 h-8 hover:fill-blue-800" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook"><path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"></path></svg>
+                </div>
+                <div class="p-1 bg-white rounded-md cursor-pointer">
+                    <svg class="w-8 h-8 hover:fill-blue-800" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook"><path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"></path></svg>
+                </div>
+                <div class="p-1 bg-white rounded-md cursor-pointer">
+                    <svg class="w-8 h-8 hover:fill-blue-800" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook"><path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"></path></svg>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="w-6/12">
+            <div class="flex flex-col space-y-5 text-lg">
+                <a href="#JobList"><h1 class="cursor-pointer">Job Listing</h1></a>
+                <a href="#AboutUs"><h2 class="cursor-pointer">About Us</h2></a>
+                <a href="#ContactUs"><h3 class="cursor-pointer">Contact Us</h3></a>
+            </div>
+    
+        </div>
+    
+        
+        </div>
+    </div>
+    </div>
+    
+        <div class="py-3 px-4 bg-black shadow-white/30 shadow-inner flex items-center justify-between">
+            <div>
+                <h1 class="capitalize tracking-[2px]">All rights reserved @ <span class="text-yellow-400">Mobilicis</span> | copyright 2024</h1>
+            </div>
+            <div class="flex items-center gap-3">
+                <h1>FAQ</h1>
+                <h2>Privacy</h2>
+                <h3>Terms &amp; Conditions</h3>
+            </div>
+        </div>
+    </footer>
+        
+    
+</body>
+</html>
